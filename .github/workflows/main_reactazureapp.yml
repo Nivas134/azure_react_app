@@ -24,7 +24,6 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          cd azure_react_app  # 👈 Go into the correct folder
           npm install
           npm run build --if-present
           npm run test --if-present
