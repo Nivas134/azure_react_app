@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: "ReactAzureApp"
           slot-name: "Production"
-          package: build # 👈 This should match the upload path
+          package: build/ # 👈 This should match the upload path
